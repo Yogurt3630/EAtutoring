@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-size: 1.3em;
-    text-wrap: balance;
+    text-wrap: pretty;
 }
 
 
@@ -401,3 +401,4 @@ div.contact {
     }
 
 }
+
