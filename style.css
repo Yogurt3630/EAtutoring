@@ -10,20 +10,12 @@
     }
 }
 
-/* html { */
-/* scroll-padding-top: 50px; */
-/* } */
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
     font-size: 1.0em;
 }
-
-/* section {
-    margin-bottom: 3%;
-} */
 
 h1 {
     font-size: 2.0em;
@@ -37,7 +29,6 @@ h2 {
 
 li {
     margin-bottom: 2%;
-    /* margin-bottom: 5px; */
 }
 
 ul {
@@ -158,7 +149,6 @@ section.banner {
     font-size: 1.1em;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     cursor: pointer;
     border-radius: 40px;
 }
@@ -167,12 +157,10 @@ section.banner {
     display: flex;
     flex-direction: column;
     max-width: 90%;
-    /* max-width: 1600px; */
     margin-top: 4%;
     margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
-    /* margin: 0 auto; */
     /* background-color: blue; */
 }
 
@@ -211,7 +199,6 @@ section.banner {
 .highlight {
     background-color: #faf4e8;
     border-radius: 8%;
-    /* padding: 3% 8%; */
     padding: 3% 8% 5% 8%;
 }
 
@@ -245,19 +232,13 @@ section.banner {
 
 .main img {
     max-width: 40%;
-    /* width: 100%; */
     height: auto;
     border-radius: 30px;
 }
 
 
 section.contact {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* padding: 0.5% 3%; */
     padding: 2% 0;
-    /* width: 100%; */
-    /* flex-shrink: 0; */
     font-size: 0.6em;
     text-align: center;
     background-color: #bbe1f8;
@@ -266,7 +247,6 @@ section.contact {
 @media screen and (min-width: 768px) {
     section.contact {
         margin: 0 auto;
-        /* padding: 20px 0; */
         padding-top: 5px;
         padding-bottom: 20px;
         font-size: 1.1em;
@@ -279,7 +259,6 @@ div.contact {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 2%; */
 }
 
 @media screen and (min-width: 768px) {
@@ -291,21 +270,10 @@ div.contact {
     }
 }
 
-/* 
-@media screen and (min-width: 768px) {
-div.contact {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-} */
-
 .contact-button-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* margin: 0 20%; */
-    /* background-color: red; */
     gap: 5px;
 }
 
@@ -315,7 +283,6 @@ div.contact {
         flex-direction: row;
         justify-content: center;
         gap: 30px;
-        /* background-color: blueviolet; */
     }
 }
 
@@ -338,7 +305,6 @@ div.contact {
         border: none;
         color: white;
         margin: 0;
-        /* padding: 3% 5%; */
         padding: 15px 25px;
         font-size: 1.1em;
         text-align: center;
