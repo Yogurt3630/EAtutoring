@@ -19,6 +19,7 @@ body {
 
 h1 {
     font-size: 1.3em;
+    text-wrap: balance;
 }
 
 
@@ -398,4 +399,5 @@ div.contact {
         cursor: pointer;
         border-radius: 40px;
     }
+
 }
