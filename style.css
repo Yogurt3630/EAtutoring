@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 1400px) {
-    .main img {
+    .about-img {
         display: none;
     }
 }
@@ -138,8 +138,8 @@ section.banner {
 
 /** Width defaults to 50% but stops shrinking at 800 px. Will grow only portionally at 50%. **/
 .banner img {
-    width: 50%;
-    min-width: 800px;
+    width: 20%;
+    min-width: 600px;
 }
 
 @media (max-width: 1450px) {
@@ -151,7 +151,7 @@ section.banner {
 /** Width set and not permitted to shrink, i.e., fixed width **/
 .banner-body {
     padding: 0 3%;
-    width: 260px;
+    width: 80%;
     flex-shrink: 0;
     /* font-size: 0.6em; */
     /* background-color:brown; */
@@ -277,6 +277,18 @@ section.banner {
     /* background-color: blueviolet; */
 }
 
+.headshot {
+    margin: 5px auto;
+    width: 80%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .headshot {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .about {
         align-content: center;
@@ -295,7 +307,7 @@ section.banner {
     }
 }
 
-.main img {
+.about-img {
     max-width: 40%;
     height: auto;
     border-radius: 30px;
