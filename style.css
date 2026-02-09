@@ -294,7 +294,7 @@ section.banner {
 
 .about {
     align-content: center;
-    max-width: 45%;
+    max-width: 100%;
     padding-bottom: 1%;
     /* background-color: blueviolet; */
 }
@@ -408,5 +408,6 @@ div.contact {
         cursor: pointer;
         border-radius: 40px;
     }
+
 
 }
